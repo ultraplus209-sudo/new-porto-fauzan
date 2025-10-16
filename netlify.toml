@@ -1,0 +1,8 @@
+[build]
+  # Use pnpm if your project uses pnpm (you can change to "npm run build" or "yarn build" if needed)
+  command = "pnpm build"
+  # The Netlify Next.js plugin produces a Next-compatible output under .output/public
+  publish = ".output/public"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
