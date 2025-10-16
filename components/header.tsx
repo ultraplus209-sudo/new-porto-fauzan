@@ -22,7 +22,7 @@ export default function Header() {
           href="#"
           className="text-3xl font-black text-accent hover:scale-110 transition-transform duration-300 text-retro"
         >
-          FA
+          Fauzan Arbi
         </Link>
 
         {/* Desktop Navigation */}
